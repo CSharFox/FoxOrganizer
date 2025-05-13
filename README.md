@@ -57,7 +57,7 @@ MIT License. Free to use, modify and distribute.
 
 ## 🙌 Credits
 
-Created with 💙 by \[Your Name].
+Created with 💙 by \CSharpFox.
 Icon generated with AI and tweaked in Photoshop.
 
 ---
