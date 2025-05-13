@@ -1,8 +1,8 @@
-﻿# 🦊 FoxTidy - Smart File Organizer for Windows
+﻿# 🦊 FoxOrganizer- Smart File Organizer for Windows
 
-FoxTidy is a simple yet powerful desktop tool built with C# and Windows Forms that helps you automatically organize files in any folder based on type, date, name, or custom categories.
+FoxOrganizer is a simple yet powerful desktop tool built with C# and Windows Forms that helps you automatically organize files in any folder based on type, date, name, or custom categories.
 
-No more messy Downloads or Desktop folders — FoxTidy brings order with a single click.
+No more messy Downloads or Desktop folders — FoxOrganizer brings order with a single click.
 
 ---
 
@@ -39,7 +39,7 @@ No more messy Downloads or Desktop folders — FoxTidy brings order with a singl
 ## 📁 File Structure
 
 ```
-FoxTidy/
+FoxOrganizer/
 ├── Main.cs                   # Main form with sorting logic
 ├── CustomCategoryEditor.cs   # UI to edit user-defined mappings
 ├── last-action-log.json      # Stores last move for Undo
