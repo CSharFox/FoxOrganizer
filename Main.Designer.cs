@@ -36,6 +36,8 @@
             btnBrowse = new Button();
             lstLog = new ListBox();
             label3 = new Label();
+            btnUndo = new Button();
+            btnEditCategories = new Button();
             SuspendLayout();
             // 
             // label1
@@ -75,9 +77,9 @@
             // 
             // btnOrganize
             // 
-            btnOrganize.Location = new Point(201, 95);
+            btnOrganize.Location = new Point(90, 95);
             btnOrganize.Name = "btnOrganize";
-            btnOrganize.Size = new Size(132, 38);
+            btnOrganize.Size = new Size(100, 38);
             btnOrganize.TabIndex = 4;
             btnOrganize.Text = "Organize Files";
             btnOrganize.UseVisualStyleBackColor = true;
@@ -110,14 +112,36 @@
             label3.TabIndex = 7;
             label3.Text = "Log: ";
             // 
+            // btnUndo
+            // 
+            btnUndo.Location = new Point(228, 95);
+            btnUndo.Name = "btnUndo";
+            btnUndo.Size = new Size(132, 38);
+            btnUndo.TabIndex = 4;
+            btnUndo.Text = "Undo";
+            btnUndo.UseVisualStyleBackColor = true;
+            btnUndo.Click += btnUndo_Click;
+            // 
+            // btnEditCategories
+            // 
+            btnEditCategories.Location = new Point(403, 56);
+            btnEditCategories.Name = "btnEditCategories";
+            btnEditCategories.Size = new Size(75, 23);
+            btnEditCategories.TabIndex = 8;
+            btnEditCategories.Text = "Categories";
+            btnEditCategories.UseVisualStyleBackColor = true;
+            btnEditCategories.Click += btnEditCategories_Click;
+            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(490, 245);
+            Controls.Add(btnEditCategories);
             Controls.Add(label3);
             Controls.Add(lstLog);
             Controls.Add(btnBrowse);
+            Controls.Add(btnUndo);
             Controls.Add(btnOrganize);
             Controls.Add(cmbSortBy);
             Controls.Add(label2);
@@ -142,5 +166,7 @@
         private Button btnBrowse;
         private ListBox lstLog;
         private Label label3;
+        private Button btnUndo;
+        private Button btnEditCategories;
     }
 }
